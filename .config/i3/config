@@ -16,7 +16,7 @@ set $mod Mod4
 font pango:inconsolata 10 
 
 # GAPS
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 3
 gaps inner 10
 gaps outer 8
 bindsym $mod+s			gaps inner current plus 5
