@@ -207,6 +207,8 @@ exec --no-startup-id nm-applet
 # dunst
 exec_always --no-startup-id dunst
 
+# udiskie
+exec --no-startup-id udiskie --no-automount --tray
 
 # BINDINGS
 bindsym $mod+w exec firefox
