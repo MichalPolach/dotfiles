@@ -33,15 +33,15 @@ label=
 interval=5
 
 [disk]
-label=
+label=💾
 #instance=/mnt/data
 interval=30
 
 [battery]
-command=acpi | sed s/"Battery 0:"//g
+command=acpi | sed s/"Battery 0:"/🔋/g
 interval=5
 
 [time]
-label= 
+label=🕒 📅
 command=echo $(date '+%d.%m %H:%M')
 interval=1
